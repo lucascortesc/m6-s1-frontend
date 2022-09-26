@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
 <td> TypeScript</td>
 <td> React.JS</td>
 <td> Styled Components</td>
-<td> Yup</td>
+
  </tr>
  <tr>
 <td> React Hook Form</td>
@@ -34,5 +34,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
 <td> React Select</td>
 <td> React Router Dom</td>
 <td> React Icons</td>
+<td> Yup</td>
  </tr>
 </table>
