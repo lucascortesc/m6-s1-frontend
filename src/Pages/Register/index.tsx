@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { registerSchema } from "../../validation";
 import { IRegister } from "../../interface";
-import { Container } from "../Login/styles";
+import { Container, Loading } from "../Login/styles";
 import { motion } from "framer-motion";
 import { InputAdornment, TextField } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
@@ -126,7 +126,7 @@ export const Register = () => {
                   </p>
                 </>
               ) : (
-                <div className="loading" />
+                <Loading />
               )}
             </div>
           </form>

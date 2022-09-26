@@ -33,6 +33,7 @@ export interface IClientRequest {
 
 export interface IClient extends IClientRequest {
   id: string;
+  created_at?: Date;
 }
 
 export interface IMethod {

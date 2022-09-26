@@ -99,6 +99,10 @@ export const Clients = () => {
                   <span>Telefone:</span>
                   <p>{client.phone}</p>
                 </div>
+                <div className="clients__info-wrap">
+                  <span>Data de criação:</span>
+                  <p>{String(client.created_at).split("T")[0]}</p>
+                </div>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
